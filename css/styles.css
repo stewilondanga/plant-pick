@@ -248,10 +248,11 @@ tfoot td.button.flower {
   background-image: linear-gradient(45deg, #866244 0%, #a39ba5 55%, #a5aec5 90%);
 }
 
-/*tfoot td.button.cactus {
+tfoot td.button.cactus {
   background-image: linear-gradient(45deg, #4e7b80 0%, #a39ba5 55%, #a5aec5 90%);
 }
-tfoot td.button:hover {
+
+/*tfoot td.button:hover {
   box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
   background-position: 0 0;
 }
