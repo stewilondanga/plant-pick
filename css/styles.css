@@ -166,7 +166,7 @@ thead .head__cactus:before {
   background: radial-gradient(rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.6));
 }
 
-/*thead .head__leafy h1,
+thead .head__leafy h1,
 thead .head__flowers h1,
 thead .head__cactus h1 {
   position: absolute;
@@ -182,7 +182,8 @@ thead .head__cactus h1 {
   margin: 0;
   transition: all 250ms ease-in-out;
 }
-thead .head__leafy {
+
+/*thead .head__leafy {
   background-image: url(https://images.unsplash.com/photo-1485841938031-1bf81239b815?ixlib=rb-0.3.5&s=696a013f0d79c483a5e4f49a0611a107);
 }
 thead .head__flowers {
