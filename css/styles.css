@@ -276,7 +276,7 @@ tfoot td.button:hover {
   background: transparent;
 }
 
-/*.hover.top h3 {
+.hover.top h3 {
   position: absolute;
   font-size: 1.4em;
   top: -90px;
@@ -285,7 +285,7 @@ tfoot td.button:hover {
   color: white;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
