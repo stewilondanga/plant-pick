@@ -224,11 +224,11 @@ tbody span {
   border-bottom: 1px solid rgba(115, 30, 10, 0.4);
 }
 
-/*tbody tr.last span {
+tbody tr.last span {
   border-bottom: none;
 }
 
-tfoot td.button {
+/*tfoot td.button {
   padding: 24px 16px;
   background-position: 100% 0;
   background-size: 200% 200%;
