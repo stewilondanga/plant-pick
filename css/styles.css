@@ -154,7 +154,7 @@ thead .head__cactus {
   z-index: 3;
 }
 
-/*thead .head__leafy:before,
+thead .head__leafy:before,
 thead .head__flowers:before,
 thead .head__cactus:before {
   content: "";
@@ -165,7 +165,8 @@ thead .head__cactus:before {
   left: 0;
   background: radial-gradient(rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.6));
 }
-thead .head__leafy h1,
+
+/*thead .head__leafy h1,
 thead .head__flowers h1,
 thead .head__cactus h1 {
   position: absolute;
