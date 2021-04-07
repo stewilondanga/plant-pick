@@ -142,7 +142,7 @@ thead td {
   padding: 40px;
 }
 
-/*thead .head__leafy,
+thead .head__leafy,
 thead .head__flowers,
 thead .head__cactus {
   background-size: cover;
@@ -153,7 +153,8 @@ thead .head__cactus {
   width: 33.333%;
   z-index: 3;
 }
-thead .head__leafy:before,
+
+/*thead .head__leafy:before,
 thead .head__flowers:before,
 thead .head__cactus:before {
   content: "";
