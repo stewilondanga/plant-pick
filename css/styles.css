@@ -138,10 +138,11 @@ table td {
   transition: transform 200ms ease-in-out;
 }
 
-/*thead td {
+thead td {
   padding: 40px;
 }
-thead .head__leafy,
+
+/*thead .head__leafy,
 thead .head__flowers,
 thead .head__cactus {
   background-size: cover;
