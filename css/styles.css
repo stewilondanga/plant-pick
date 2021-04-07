@@ -240,10 +240,11 @@ tfoot td.button {
   cursor: pointer;
 }
 
-/*tfoot td.button.leafy {
+tfoot td.button.leafy {
   background-image: linear-gradient(45deg, #614069 0%, #a39ba5 55%, #a5aec5 90%);
 }
-tfoot td.button.flower {
+
+/*tfoot td.button.flower {
   background-image: linear-gradient(45deg, #866244 0%, #a39ba5 55%, #a5aec5 90%);
 }
 tfoot td.button.cactus {
