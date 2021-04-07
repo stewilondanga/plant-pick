@@ -219,11 +219,12 @@ tbody h4 {
   margin: 0;
 }
 
-/*tbody span {
+tbody span {
   padding: 8px;
   border-bottom: 1px solid rgba(115, 30, 10, 0.4);
 }
-tbody tr.last span {
+
+/*tbody tr.last span {
   border-bottom: none;
 }
 
