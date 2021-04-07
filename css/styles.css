@@ -264,11 +264,12 @@ tfoot td.button:hover {
   z-index: 2;
 }
 
-/*.hover.head__leafy h1, .hover.head__flowers h1, .hover.head__cactus h1 {
+.hover.head__leafy h1, .hover.head__flowers h1, .hover.head__cactus h1 {
   color: white;
   border-color: white;
 }
-.hover.top {
+
+/*.hover.top {
   position: relative;
   z-index: 40;
   color: white;
