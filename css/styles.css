@@ -257,13 +257,14 @@ tfoot td.button:hover {
   background-position: 0 0;
 }
 
-/*.hover {
+.hover {
   background-color: #eee;
   transform: scale(1.2);
   position: relative;
   z-index: 2;
 }
-.hover.head__leafy h1, .hover.head__flowers h1, .hover.head__cactus h1 {
+
+/*.hover.head__leafy h1, .hover.head__flowers h1, .hover.head__cactus h1 {
   color: white;
   border-color: white;
 }
