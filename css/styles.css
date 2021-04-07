@@ -200,13 +200,14 @@ tbody td.top {
   padding: 8px 8px 0;
 }
 
-/*tbody td.top h3 {
+tbody td.top h3 {
   font-size: 1.3em;
   line-height: 1;
   margin: 0;
   color: #969794;
 }
-tbody h4 {
+
+/*tbody h4 {
   font-family: "Lato", sans-serif;
   display: block;
   letter-spacing: 2px;
