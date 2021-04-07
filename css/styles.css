@@ -120,7 +120,7 @@ table {
   min-width: 600px;
 }
 
-/*table caption {
+table caption {
   font-size: 1.6em;
   font-weight: bold;
   margin: 0 auto 40px;
@@ -130,7 +130,8 @@ table {
   width: 60%;
   min-width: 500px;
 }
-table td {
+
+/*table td {
   padding: 8px 16px 16px;
   text-align: center;
   transform: scale(1);
