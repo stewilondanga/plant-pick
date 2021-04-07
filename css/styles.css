@@ -110,7 +110,7 @@ body {
   transition-delay: 0.4s;
 }
 
-/*table {
+table {
   border-collapse: collapse;
   border-radius: 3px;
   box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
@@ -119,7 +119,8 @@ body {
   max-width: 800px;
   min-width: 600px;
 }
-table caption {
+
+/*table caption {
   font-size: 1.6em;
   font-weight: bold;
   margin: 0 auto 40px;
