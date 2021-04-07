@@ -207,7 +207,7 @@ tbody td.top h3 {
   color: #969794;
 }
 
-/*tbody h4 {
+tbody h4 {
   font-family: "Lato", sans-serif;
   display: block;
   letter-spacing: 2px;
@@ -218,7 +218,8 @@ tbody td.top h3 {
   color: #731e0a;
   margin: 0;
 }
-tbody span {
+
+/*tbody span {
   padding: 8px;
   border-bottom: 1px solid rgba(115, 30, 10, 0.4);
 }
