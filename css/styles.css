@@ -107,6 +107,173 @@ body {
   transition-delay: 0.4s;
 }
 
+body {
+  background: #36383f;
+  font: 14px Georgia, serif;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-15deg, #94a495, #d3d6d1 70%);
+  padding: 0 50px;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 3px;
+  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  background: white;
+  max-width: 800px;
+  min-width: 600px;
+}
+table caption {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 0 auto 40px;
+  color: white;
+  border: 1px solid white;
+  padding: 16px 0;
+  width: 60%;
+  min-width: 500px;
+}
+table td {
+  padding: 8px 16px 16px;
+  text-align: center;
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+}
+
+thead td {
+  padding: 40px;
+}
+thead .head__leafy,
+thead .head__flowers,
+thead .head__cactus {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  position: relative;
+  width: 33.333%;
+  z-index: 3;
+}
+thead .head__leafy:before,
+thead .head__flowers:before,
+thead .head__cactus:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.6));
+}
+thead .head__leafy h1,
+thead .head__flowers h1,
+thead .head__cactus h1 {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  bottom: 15%;
+  left: 15%;
+  border: 4px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  transition: all 250ms ease-in-out;
+}
+thead .head__leafy {
+  background-image: url(https://images.unsplash.com/photo-1485841938031-1bf81239b815?ixlib=rb-0.3.5&s=696a013f0d79c483a5e4f49a0611a107);
+}
+thead .head__flowers {
+  background-image: url(https://images.unsplash.com/photo-1506425714313-f1ac47b2613d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f4f0e940646dfd4646b729f68abdbed0);
+}
+thead .head__cactus {
+  background-image: url(https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5acdd8c846a526a45fbd7ab851e486d0);
+}
+
+tbody td.top {
+  transition: all 250ms ease-in-out;
+  padding: 8px 8px 0;
+}
+tbody td.top h3 {
+  font-size: 1.3em;
+  line-height: 1;
+  margin: 0;
+  color: #969794;
+}
+tbody h4 {
+  font-family: "Lato", sans-serif;
+  display: block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 8px 4px 4px;
+  color: #731e0a;
+  margin: 0;
+}
+tbody span {
+  padding: 8px;
+  border-bottom: 1px solid rgba(115, 30, 10, 0.4);
+}
+tbody tr.last span {
+  border-bottom: none;
+}
+
+tfoot td.button {
+  padding: 24px 16px;
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+tfoot td.button.leafy {
+  background-image: linear-gradient(45deg, #614069 0%, #a39ba5 55%, #a5aec5 90%);
+}
+tfoot td.button.flower {
+  background-image: linear-gradient(45deg, #866244 0%, #a39ba5 55%, #a5aec5 90%);
+}
+tfoot td.button.cactus {
+  background-image: linear-gradient(45deg, #4e7b80 0%, #a39ba5 55%, #a5aec5 90%);
+}
+tfoot td.button:hover {
+  box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
+  background-position: 0 0;
+}
+
+.hover {
+  background-color: #eee;
+  transform: scale(1.2);
+  position: relative;
+  z-index: 2;
+}
+.hover.head__leafy h1, .hover.head__flowers h1, .hover.head__cactus h1 {
+  color: white;
+  border-color: white;
+}
+.hover.top {
+  position: relative;
+  z-index: 40;
+  color: white;
+  background: transparent;
+}
+.hover.top h3 {
+  position: absolute;
+  font-size: 1.4em;
+  top: -90px;
+  left: 50px;
+  max-width: 20%;
+  color: white;
+}
+
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;
