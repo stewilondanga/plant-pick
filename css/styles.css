@@ -269,13 +269,14 @@ tfoot td.button:hover {
   border-color: white;
 }
 
-/*.hover.top {
+.hover.top {
   position: relative;
   z-index: 40;
   color: white;
   background: transparent;
 }
-.hover.top h3 {
+
+/*.hover.top h3 {
   position: absolute;
   font-size: 1.4em;
   top: -90px;
