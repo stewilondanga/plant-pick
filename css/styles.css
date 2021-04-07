@@ -1,3 +1,14 @@
+body {
+  background: #36383f;
+  font: 14px Georgia, serif;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-15deg, #94a495, #d3d6d1 70%);
+  padding: 0 50px;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -107,16 +118,6 @@
   transition-delay: 0.4s;
 }
 
-body {
-  background: #36383f;
-  font: 14px Georgia, serif;
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(-15deg, #94a495, #d3d6d1 70%);
-  padding: 0 50px;
-}
 
 table {
   border-collapse: collapse;
