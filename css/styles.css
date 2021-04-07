@@ -106,12 +106,11 @@ body {
   transition-delay: 0.3s;
 }
 
-/*.share-button:hover .share__link:nth-of-type(4) {
+.share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
 }
 
-
-table {
+/*table {
   border-collapse: collapse;
   border-radius: 3px;
   box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
